@@ -48,7 +48,7 @@
         <section class="herow">
             <div class="container herow__container">
                 <h1 class="herow__title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="herow__button">Замовити послугу</button>
+                <button data-modal-open type="button" class="herow__button">Замовити послугу</button>
             </div>
         </section>
         <section class="section features__section">
@@ -355,6 +355,16 @@
             </div>
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="close__black" data-modal-close>
+               
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
